@@ -1,6 +1,6 @@
-## Task Manager Web Application: Setup and Usage Guide
+# Task Manager Web Application: Setup and Usage Guide
 
-# This guide walks you through setting up and using the Task Manager web application.
+## This guide walks you through setting up and using the Task Manager web application.
 
 **Prerequisites:**
 
