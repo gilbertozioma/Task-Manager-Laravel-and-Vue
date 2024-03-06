@@ -71,7 +71,16 @@ This will start a local development server, typically accessible at http://local
 
 ##
 
-## 6. Using the Task Manager:
+## 6. Start the development server for Laravel:
+
+Run the following command to start the development server for Laravel:
+
+```Bash
+php artisan serve
+```
+This will start a local development server for Laravel, typically accessible at http://localhost:8080/ in your web browser. The exact URL might vary depending on your system configuration.
+
+## 7. Using the Task Manager:
 
 Once the server is running, you can access the Task Manager interface in your browser. Here's how to use various features:
 
