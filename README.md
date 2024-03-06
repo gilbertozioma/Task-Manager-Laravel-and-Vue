@@ -19,9 +19,21 @@
 git clone https://github.com/gilbertozioma/Gilbert-Fullstack-Task-Laravel-and-Vue.git
 ```
 
-## 2 Run migration:
+##
 
-- You need to set your database credentials in the ".env" file, but don't borther about that because I have already included the configured ".env" file for this task.
+## 2. Update composer
+
+Run the following command to update the composer and download the vendor dependencies folder
+
+```bash
+composer update
+```
+
+##
+
+## 3. Run migration:
+
+- You need to set your database credentials in the ".env" file but don't worry about that because I have already included the configured ".env" file for this task.
 - Navigate to the project's root directory in your terminal.
 - Run the following command to execute the database migration:
 
@@ -30,8 +42,9 @@ php artisan migrate
 ```
 The command will prompt you to confirm creating the database named "gilbert-fullstack_task" (the default name). Select "yes" to proceed.
 
+##
 
-## 3. Install dependencies:
+## 4. Install dependencies:
 
 **i. Navigate to the "vue-frontend" directory within the project:**
 
@@ -45,18 +58,22 @@ cd vue-frontend
 npm install
 ```
 
-## 4. Start the development server:
+##
 
-- Run the following command to start the development server:
+## 5. Start the development server:
+
+Run the following command to start the development server:
 
 ```Bash
 npm run dev
 ```
 This will start a local development server, typically accessible at http://localhost:5174/ or http://localhost:8080/ in your web browser. The exact URL might vary depending on your system configuration.
 
-## 5. Using the Task Manager:
+##
 
-- Once the server is running, you can access the Task Manager interface in your browser. Here's how to use various features:
+## 6. Using the Task Manager:
+
+Once the server is running, you can access the Task Manager interface in your browser. Here's how to use various features:
 
 ## Features:
 
@@ -73,7 +90,7 @@ This will start a local development server, typically accessible at http://local
 **iii. Editing Tasks:**
 
 - Click the "Edit" button next to the task you want to modify.
-- Edit the title, description, or mark the task as completed using the checkbox.
+- Edit the title, and description, or mark the task as completed using the checkbox.
 - Click the "Save" button again to update the changes.
 
 **iv. Deleting Tasks:**
