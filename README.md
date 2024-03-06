@@ -16,7 +16,7 @@
 - Use the following command to clone the project from the Git repository:
 
 ```bash
-git clone https://github.com/gilbertozioma/Gilbert-Fullstack-Task-Laravel-and-Vue.git
+git clone https://github.com/gilbertozioma/Task-Manager-Laravel-and-Vue.git
 ```
 
 ##
