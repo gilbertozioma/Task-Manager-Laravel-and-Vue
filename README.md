@@ -21,7 +21,7 @@ git clone https://github.com/gilbertozioma/Gilbert-Fullstack-Task-Laravel-and-Vu
 
 ##
 
-## 2. Update composer
+## 2. Update composer:
 
 Run the following command to update the composer and download the vendor dependencies folder
 
