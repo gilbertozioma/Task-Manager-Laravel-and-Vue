@@ -23,7 +23,7 @@ git clone https://github.com/gilbertozioma/Task-Manager-Laravel-and-Vue.git
 
 ## 2. Update composer:
 
-Run the following command to update the composer and download the vendor dependencies folder
+Navigate to the "Task-Manager-Laravel-and-Vue" directory and run the following command to update the composer and download the vendor dependencies folder:
 
 ```bash
 composer update
