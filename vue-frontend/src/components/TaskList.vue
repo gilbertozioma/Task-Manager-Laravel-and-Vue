@@ -23,13 +23,15 @@
                         </div>
                         <div class="form-group mb-3">
                             <label>Description</label>
-                            <input type="text" v-model="task.description" class="form-control" placeholder="Task Description">
+                            <input type="text" v-model="task.description" class="form-control"
+                                placeholder="Task Description">
 
                         </div>
 
                         <div class="form-group mb-3">
                             <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" v-model="task.status" id="completedCheckbox">
+                                <input class="form-check-input" type="checkbox" v-model="task.status"
+                                    id="completedCheckbox">
                                 <label class="form-check-label" for="completedCheckbox">Mark Complete</label>
                             </div>
 
@@ -67,13 +69,18 @@
 
                             <!-- Action buttons to Edit and Delete Tasks -->
                             <td>
-                                <button type="button" class="btn btn-sm btn-primary m-2" @click="edit(task)">Edit</button>
-                                <button type="button" class="btn btn-sm btn-danger" @click="remove(task)">Delete</button>
+                                <button type="button" class="btn btn-sm btn-primary m-2"
+                                    @click="edit(task)">Edit</button>
+                                <button type="button" class="btn btn-sm btn-danger"
+                                    @click="remove(task)">Delete</button>
                             </td>
                         </tr>
 
                     </tbody>
                 </table>
+                <template v-if="!result.length">
+                    <p class="text-center text-muted">Task list is empty, please add a task.</p>
+                </template>
             </div>
         </div>
     </div>
@@ -123,7 +130,7 @@ export default {
                 // Alert an error message if something goes wrong and Tasks not fetched.
                 .catch(error => {
                     console.error(error);
-                    alert("Something Went Wrong!!!");
+                    alert("Task list is empty!!!");
                 });
         },
 
@@ -155,7 +162,7 @@ export default {
                 .catch(error => {
                     // Alert an error message if something goes wrong during Task creation.
                     console.error(error);
-                    alert("Failed, Task Not Saved!");
+                    alert("Failed, Task Not Added!");
                 });
         },
 
