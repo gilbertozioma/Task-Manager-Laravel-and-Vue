@@ -45,7 +45,16 @@ The command will prompt you to confirm creating the database named "gilbert-full
 
 ##
 
-## 4. Install dependencies:
+## 4. Start the development server for Laravel:
+
+Run the following command to start the development server for Laravel:
+
+```Bash
+php artisan serve
+```
+This will start a local development server for Laravel, typically accessible at http://localhost:8080/ in your web browser. The exact URL might vary depending on your system configuration.
+
+## 5. Install dependencies:
 
 **i. Navigate to the "vue-frontend" directory within the project:**
 
@@ -61,7 +70,7 @@ npm install
 
 ##
 
-## 5. Start the development server for Vue:
+## 6. Start the development server for Vue:
 
 Run the following command to start the development server:
 
@@ -72,14 +81,6 @@ This will start a local development server, typically accessible at http://local
 
 ##
 
-## 6. Start the development server for Laravel:
-
-Run the following command to start the development server for Laravel:
-
-```Bash
-php artisan serve
-```
-This will start a local development server for Laravel, typically accessible at http://localhost:8080/ in your web browser. The exact URL might vary depending on your system configuration.
 
 ## 7. Using the Task Manager:
 
