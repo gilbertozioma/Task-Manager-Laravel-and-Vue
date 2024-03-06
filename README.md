@@ -4,6 +4,7 @@
 
 **Prerequisites:**
 
+**This project assumes that you already have Xampp installed, configured, and running on your local machine.**
 - Git installed on your system
 - Node.js (version 14 or later) and npm installed on your system
 - A code editor of your choice
