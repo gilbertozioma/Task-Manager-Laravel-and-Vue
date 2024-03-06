@@ -60,7 +60,7 @@ npm install
 
 ##
 
-## 5. Start the development server:
+## 5. Start the development server for Vue:
 
 Run the following command to start the development server:
 
